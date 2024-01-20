@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@700&display=swap");
+
+body {
+  font-family: 'Baloo Thambi 2', sans-serif;
+  background-image: url('https://facts.net/wp-content/uploads/2023/06/44-facts-about-the-movie-big-hero-6-1687619135.jpg'); /* Replace with the actual image URL */
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.center {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+}
+
+.btn1,
+.btn {
+  color: #ffc107; /* Big Hero 6 yellow color */
+  outline: none;
+  background-color: Transparent;
+  border: none;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.head-titl {
+  text-align: center;
+  color: #ffc107; /* Big Hero 6 yellow color */
+}
+
+.ppl {
+  display: inline-grid;
+  justify-content: center;
+  width: 100%;
+  height: 452px;
+}
+
+.duce,
+.covid,
+.b3at {
+  color: #ffc107; /* Big Hero 6 yellow color */
+  display: grid;
+  width: min-content;
+}
+
+.games-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background: rgba(34, 34, 34, 0.8); /* Semi-transparent black background */
+}
+
+.crm {
+  width: 112px;
+  height: 84px;
+  vertical-align: top;
+  display: grid;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.icn {
+  width: 48px;
+  height: 48px;
+}
+
+#ht {
+  max-width: 15%;
+  height: auto;
+}
+
+fieldset {
+  border: 1px solid #000;
+}
+
+#input,
+#inputb {
+  border: none;
+  border-radius: calc(0.5 * 44px);
+  font-size: 16px;
+  outline: none;
+  position: relative;
+  color: #ffc107; /* Big Hero 6 yellow color */
+}
+
+#inputb {
+  padding-inline-end: 40px;
+  padding-inline-start: 52px;
+  width: 80%;
+  height: 44px;
+}
+
+#inputimg {
+  position: absolute;
+  left: 0;
+  top: -1px;
+  padding-left: 14px;
+  outline: none;
+}
+
+#txt {
+  padding-top: 50px;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 40px;
+}
+
+#headtxt {
+  font-size: 80px;
+  color: #ffc107; /* Big Hero 6 yellow color */
+}
+
+@media only screen and (max-width: 600px) {
+  #txt {
+    font-size: 14px;
+  }
+  .center {
+    width: 410px;
+  }
+  #inputb {
+    width: 69%;
+  }
+  .crm {
+    width: 93px;
+  }
+  #headtxt {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #txt {
+    font-size: 12px;
+    width: 97%;
+    word-wrap: normal;
+  }
+  .center {
+    width: 350px;
+  }
+  #inputb {
+    width: 57%;
+  }
+  .crm {
+    width: 85px;
+  }
+  #headtxt {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .center {
+    width: 300px;
+  }
+}

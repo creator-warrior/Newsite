@@ -1,0 +1,7 @@
+{
+    "name": "BayMax",
+    "description": "Unofficial Hypertabs easy deployment version with TompHTTP bare server included.",
+    "repository": "https://github.com/amethystnetwork-dev/Hypertabs",
+    "logo": "https://cdn.dribbble.com/users/642453/screenshots/1965972/media/6e700e2aca2ff56d349913665546bde6.png?resize=256x256",
+    "keywords": ["BayMax"]
+}

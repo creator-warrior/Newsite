@@ -1,0 +1,51 @@
+.chrome-tabs.chrome-tabs-bright-theme {
+    background: #ff1744; /* Bright red background for the entire tab area */
+  }
+  
+  .chrome-tabs.chrome-tabs-bright-theme .chrome-tab .chrome-tab-dividers::before,
+  .chrome-tabs.chrome-tabs-bright-theme .chrome-tab .chrome-tab-dividers::after {
+    background: #c51162; /* Darker red for tab dividers */
+  }
+  
+  .chrome-tabs.chrome-tabs-bright-theme
+    .chrome-tab
+    .chrome-tab-background
+    > svg
+    .chrome-tab-geometry {
+    fill: #d32f2f; /* Dark red fill color for non-active tab geometry */
+  }
+  
+  .chrome-tabs.chrome-tabs-bright-theme
+    .chrome-tab[active]
+    .chrome-tab-background
+    > svg
+    .chrome-tab-geometry {
+    fill: #e57373; /* Lighter red fill color for active tab geometry */
+  }
+  
+  .chrome-tabs.chrome-tabs-bright-theme .chrome-tab .chrome-tab-title {
+    color: #ffffff; /* White text color for non-active tab title */
+  }
+  
+  .chrome-tabs.chrome-tabs-bright-theme .chrome-tab[active] .chrome-tab-title {
+    color: #ffffff; /* White text color for active tab title */
+  }
+  
+  .chrome-tabs.chrome-tabs-bright-theme .chrome-tab .chrome-tab-close {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'><path stroke='#ffffff' stroke-linecap='square' stroke-width='1.5' d='M0 0 L8 8 M8 0 L0 8'></path></svg>");
+  }
+  
+  .chrome-tabs.chrome-tabs-bright-theme .chrome-tab .chrome-tab-close:hover {
+    background-color: #d50000; /* Dark red background color on hover */
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'><path stroke='#ffffff' stroke-linecap='square' stroke-width='1.5' d='M0 0 L8 8 M8 0 L0 8'></path></svg>");
+  }
+  
+  .chrome-tabs.chrome-tabs-bright-theme .chrome-tab .chrome-tab-close:hover:active {
+    background-color: #b71c1c; /* Even darker red background color on active */
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'><path stroke='#ffffff' stroke-linecap='square' stroke-width='1.5' d='M0 0 L8 8 M8 0 L0 8'></path></svg>");
+  }
+  
+  .chrome-tabs.chrome-tabs-bright-theme .chrome-tabs-bottom-bar {
+    background: #d32f2f; /* Dark red background for the bottom bar below tabs */
+  }
+  
